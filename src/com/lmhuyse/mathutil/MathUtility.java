@@ -30,7 +30,7 @@ public class MathUtility {
         if (n == 0 || n == 1) {
             return 1;
         }
-        long result = 0; // co tinh de value
+        long result = 1; // co tinh de value
         for (int i = 2; i <= n; i++) {
             result *= i;
         }
